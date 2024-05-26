@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS</title>
+    <link rel="stylesheet" href="dbms.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo"><img src="logo.png" alt="Logo" style="width: 80px;"></div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="links">
+                <a href="./index.html">Home</a>
+                <a href="./index.html">Main Menu</a>
+                <a href="./index.html">Back</a>
+            </div>
+        </nav>
+        <div class="heading">
+            <h1>Database Management System</h1>
+            <div class="unit">
+                <a href="#unit1">Unit 1</a>
+                <a href="/sorry.html">Unit 2</a>
+                <a href="/sorry.html">Unit 3</a>
+                <a href="/sorry.html">Unit 4</a>
+                <a href="/sorry.html">Unit 5</a>
+            </div>
+        </div>
+        <section id="unit1">
+            <h2><b>UNIT 1</b></h2>
+            <h2><b>RELATIONAL DATABASES</b></h2>
+            <br>
+            <br>
+            <div class="syllabus">
+                <center>
+                    <a href="#pds">Purpose of Database System</a> -
+                    <a href="#vod">Views of data</a> -
+                    <a href="#dm">Data Models</a> -
+                    <a href="#dsa">Database System Architecture</a> -
+                    <a href="#itrd">Introduction to relational database</a>-
+                    <a href="#rm">Relational Model</a> -
+                    <a href="#k">Keys</a> -
+                    <a href="#ra">Relational Algebra</a> -
+                    <a href="#sql">SQL</a> -
+                    <a href="#fun">fundamentals</a> -
+                    <a href="#asf">Advanced SQL features</a> -
+                    <a href="#es">Embedded SQL</a> -
+                    <a href="#ds">Dynamic SQL.</a>
+                </center>
+            </div>
+            <br>
+            <br>
+            <div class="rd">
+                <ul>
+                    <h3>What is a Relational Database (RDBMS)? </h3>
+                </ul>
+                <ul>
+                    <li>A relational database is a type of database that stores and provides access to data points that
+                        are related to one another. </li>
+                    <li>Relational databases are based on the relational model, an intuitive, straightforward way of
+                        representing data in tables.</li>
+                </ul>
+
+                <ul>
+                    <h3>Watch the below video to know more! </h3>
+                </ul>
+
+                <div class="vid1">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/OqjJjpjDRLc?si=jAF3yarvTWgx0Aeh"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <ul>
+                        <h3>Start to code your first SQL query! </h3>
+                    </ul>
+                    <div class="frame">
+                        <iframe src="https://www.programiz.com/sql/online-compiler/"></iframe>
+                    </div>
+                </div>
+
+            </div>
+            <div id="pds">
+
+                <h3
+                    style=" color: white;background-color: rgb(103, 1, 126); border-radius:10px; padding: 8px; text-align: center;">
+                    Purpose of Database System</h3>
+
+                <ul>
+                    <li style="font-size: 20px;">The purpose of DBMS is to transform the following Data into
+                        information.Data into information.</li>
+                </ul>
+                <ol>
+                    <li>Data into information.</li>
+                    <li>Information into knowledge.</li>
+                    <li>Knowledge to the action.</li>
+                </ol>
+                <ul>
+                    <h3>Watch the below video to know more! </h3>
+                </ul>
+                <div class="vid1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aa7jsx11Z1Y?si=ODIOLtTjuNWuLFff"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h3>Full notes link 👇 </h3>
+                    <a href="https://docs.google.com/document/d/1Y5TZzjD8-1VgfB5AAnrjwEx3MeqEuk2P/edit">
+                        <h3 style="font-size: 20px;">click here</h3>
+                    </a>
+                </div>
+            </div>
+            <div id="vod">
+
+                <h3
+                    style=" color: white;background-color: rgb(103, 1, 126); border-radius:10px; padding: 8px; text-align: center;">
+                    Views of Database</h3>
+
+                <ul>
+                    <li style="font-size: 20px;">It refers that how database is actually stored in database, what data
+                        and structure of data used by database for data. So describe all this database provides user
+                        with views and these are
+                    </li>
+                </ul>
+                <ol>
+                    <li style="font-size: 20px; font-weight: bold;">Data abstraction.</li>
+
+
+                    <ul style="padding: 7px; margin-top: 9px;">
+                        <li style="font-size: 20px;">DBMS hides some information's which is not of user interest, a this
+                            is called data abstraction</li>
+                        <li style="font-size: 20px;">So developer hides complexity from user and store abstract view of
+                            data.</li>
+                        <li style="font-size: 20px;"><b>Data abstraction has three level of abstractions:</b></li>
+                        <ol style="margin-top: 5px;">
+                            <li style="font-size: 20px;">Level / internal level</li>
+                            <li style="font-size: 20px;">Logical level / Conceptual level </li>
+                            <li style="font-size: 20px;">View level / External level
+                            </li>
+                        </ol>
+
+                    </ul>
+
+                    <br>
+                    <li style="font-size: 20px; font-weight: bold;">Instances and schemas.</li>
+                    <ul style="padding: 7px; margin-top: 9px;">
+                        <li style="font-size: 20px;">Design of database is called the Schema.</li>
+                        <li style="font-size: 20px;">It is basically skeleton structure that represent the logical view
+                            of entire database.</li>
+                        <li style="font-size: 20px;"><b>Database system has various schemas.</b></li>
+                        <ol style="margin-top: 5px;">
+                            <li style="font-size: 20px;">Physical database schema</li>
+                            <li style="font-size: 20px;">Logical database schema</li>
+                            <li style="font-size: 20px;">View Schema</li>
+                        </ol>
+
+                    </ul>
+
+                </ol>
+                <ul>
+                    <h3>Watch the below video to know more! </h3>
+                </ul>
+                <div class="vid1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/I_PrZ1NHZr8?si=ticgS2h2kQ9-cYBZ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="vid1">
+                    <h3>Full notes link 👇 </h3>
+                    <a href="https://docs.google.com/document/d/1Y5TZzjD8-1VgfB5AAnrjwEx3MeqEuk2P/edit">
+                        <h3 style="font-size: 20px;">click here</h3>
+                    </a>
+                </div>
+                <div id="#dm">
+                    <h3
+                        style=" color: white;background-color: rgb(103, 1, 126); border-radius:10px; padding: 8px; text-align: center;">
+                        Data Models</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="sub.js"></script>
+</body>
+
+</html>
