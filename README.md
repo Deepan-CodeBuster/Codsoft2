@@ -19,7 +19,7 @@ Our guiding principle is to help you **"Understand The Concept Rather Than Memor
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/it-study-content.git
+   git clone https://github.com/Deepan-CodeBuster/IT-Study-Content-E--Learning-Website-.git
    ```
 
 2. **Navigate to Relevant Sections**:
